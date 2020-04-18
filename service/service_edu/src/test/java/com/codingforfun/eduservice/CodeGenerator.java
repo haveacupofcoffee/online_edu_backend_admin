@@ -1,3 +1,4 @@
+/*
 package com.codingforfun.eduservice;
 
 import com.baomidou.mybatisplus.annotation.DbType;
@@ -11,10 +12,12 @@ import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import org.junit.Test;
 
+*/
 /**
  * @author
  * @since 2018/12/13
- */
+ *//*
+
 public class CodeGenerator {
 
     @Test
@@ -28,7 +31,6 @@ public class CodeGenerator {
         String projectPath = System.getProperty("user.dir");
         //set the out put directory of code, it's better to use absolute path
         gc.setOutputDir("D:\\Jason\\Projects\\online_education_parent\\service\\service_online_edu" + "/src/main/java");
-
         gc.setAuthor("qdl");
         gc.setOpen(false); //set if auto open the folder of the generated file
         gc.setFileOverride(false); //override the generated file, set to false since we need to write code to this file
@@ -84,3 +86,4 @@ public class CodeGenerator {
         mpg.execute();
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import com.amazonaws.AmazonServiceException;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.s3.AmazonS3;
@@ -17,6 +18,7 @@ import java.util.UUID;
 public class AwsS3Test {
     @Test
     public void testUplodObject() {
+*/
 /*        String bucketName = "online-education-aws";
         String fileObjKeyName = "testFile";
         S3Client s3 = S3Client.builder()
@@ -26,7 +28,8 @@ public class AwsS3Test {
         File file = new File ("D:\\get-pip.py");
         s3.putObject(PutObjectRequest.builder().bucket(bucketName).key(file.getName()).grantRead("read")
                         .build(),
-                RequestBody.fromFile(file));*/
+                RequestBody.fromFile(file));*//*
+
         //create a s3 service client
         File file = new File("D:\\get-pip.py");
         final AmazonS3 s3 = AmazonS3ClientBuilder.standard().withRegion(Regions.CA_CENTRAL_1).build();
@@ -67,3 +70,4 @@ public class AwsS3Test {
     }
 
 }
+*/

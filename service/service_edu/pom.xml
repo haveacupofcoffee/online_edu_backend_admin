@@ -43,7 +43,7 @@
                                     <artifactId>${project.artifactId}</artifactId>
                                     <version>${project.version}</version>
                                     <type>${project.packaging}</type>
-                                    <destFileName>{project.artifactId}-8001.${project.packaging}</destFileName>
+                                    <destFileName>${project.artifactId}-8001.${project.packaging}</destFileName>
                                 </artifactItem>
                             </artifactItems>
                             <outputDirectory>${session.executionRootDirectory}/target/</outputDirectory>
